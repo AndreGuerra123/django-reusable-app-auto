@@ -22,7 +22,7 @@ jobs:
       - run:
           name: Documentation
           command: |
-	          poetry run sphinx-apidoc -o docs/ django_reusable_app_auto --force
+            poetry run sphinx-apidoc -o docs/ django_reusable_app_auto --force
       - run:
          name: Report
          command: |
