@@ -22,7 +22,7 @@ INSTALLED_APPS = [
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sites",
-    "django_reusable_app_auto",
+    "django_reusable_app_auto.apps.DjangoReusableAppAutoConfig",
 ]
 
 SITE_ID = 1
